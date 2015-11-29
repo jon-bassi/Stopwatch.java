@@ -1,5 +1,3 @@
-package sample;
-
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -28,7 +26,7 @@ public class Controller
         }
 
         isStopped = false;
-
+        stopButton.setText("Stop");
 
         timer = new Timer();
         timer.scheduleAtFixedRate(new TimerTask()
